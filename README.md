@@ -1,1 +1,1 @@
-# code-legneds
+# code-legends
