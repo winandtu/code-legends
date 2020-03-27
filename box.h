@@ -8,19 +8,19 @@ using namespace std;
 class Box{
   public:
   Box();
-
-
   int ID;
   void setID(int id);
   int getID();
 
   bool Torreta;
+  bool tieneEjercito;
+  void setTieneEjercito();
   void setTorreta();
 
-  void setEjercito(int N_Luchadores, int N_Tiradores, int N_Magos);
-  void getEjercito();
+  void setEjercito(int NLuchadores, int NTiradores, int NMagos);
+  void informacionEjercito();
+  Ejercito *ejercito;
 
-  protected:
 };
 
 #endif

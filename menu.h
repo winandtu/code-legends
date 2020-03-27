@@ -10,6 +10,10 @@ using namespace std;
 class Menu{
   public:
   Menu();
+  void Interfaz();
+  void Instrucciones();
+  void configurarPartida(int tipoConfiguracion);
+  Tablero tableroGuardado;
 };
 
 #endif

@@ -1,0 +1,5 @@
+Code Legends es un juego tipo competitivo en el que se fusiona la velocidad y la estrategia,
+con elementos de juegos de rol. En el juego aparece un ejército de batalla cada uno con un
+diseño y estilo único, que deberán luchar contra otro ejército. La dinámica del juego consiste
+en que un ejército trata de destruir la Torreta y el otro ejército trata de protegerla.
+¡Por defender la Torreta, en batalla se perderán muchas vidas!

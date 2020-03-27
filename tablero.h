@@ -9,7 +9,11 @@ using namespace std;
 class Tablero{
   public:
   Tablero();
-  
+  void Interfaz();
+  void configurarPartida(int tipoConfiguracion);
+  void estadoEjercitos();
+  void imprimirTablero();
+  Box **Puntero;
 };
 
 #endif
