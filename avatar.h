@@ -13,7 +13,7 @@ class Avatar{
   /*public: 
 
   Avatar();
-  void setTipo(string tipo);
+  void setTipo(string tipo);//Tipo de avatar
   string Tipo;
   float Poder;
   float Mana;
