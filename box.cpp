@@ -1,5 +1,5 @@
 #include "box.h"
-
+//Rama arkhan
 Box::Box(){
   Torreta = false;
   tieneEjercito = false;
