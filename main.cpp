@@ -18,6 +18,8 @@ int main() {
   Menu Menu;
   Menu.Interfaz();
 
+//Probando commit
+
 /*
   //Utilizo -> por que son punteros a la clase avatar, no son objetos.
   //Aqui configuro todo lo del avatar:
