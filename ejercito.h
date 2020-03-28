@@ -5,16 +5,19 @@
 #include <vector>
 using namespace std;
 
+//prueba branch
 class Ejercito{
 
-  /*public:
+  /*
+  public:
   Ejercito(int N_Luchadores, int N_Tiradores, int N_Magos);
   void calcularEjercito();
   int cantidadLuchadores, cantidadTiradores, cantidadMagos;
 
   vector<Avatar> Luchadores;
   vector<Avatar> Tiradores;
-  vector<Avatar> Magos; */
+  vector<Avatar> Magos;
+  /*
 
   public: 
     int cantidadLuchadores, cantidadTiradores, cantidadMagos, cantidadEjercito;
