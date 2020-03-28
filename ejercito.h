@@ -21,7 +21,8 @@ class Ejercito{
     vector<Avatar*> ejercito; //avatar* es un vector de punteros a la clase avatar
 
     Ejercito();
-    void calcularEjercito(); 
+    void calcularEjercito();
+    void llenarFilas(); 
     void setCantidadLuchadores(int numero);
     int getCantidadLuchadores();
     void setCantidadTiradores(int numero);
@@ -29,6 +30,8 @@ class Ejercito{
     void setCantidadMagos(int numero);
     int getCantidadMagos();
     void setCantidadEjercito(int luchadores, int tiradores, int magos);
+    void calcularPoder();
+    void calcularMana();
     vector<Avatar*> getEjercito();// Obtener el ejercito
   
 };

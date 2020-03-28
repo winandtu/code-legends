@@ -16,6 +16,8 @@ class Box{
   bool tieneEjercito;
   void setTieneEjercito();
   void setTorreta();
+  void setAtacante(double *poder);
+  void setDefensor(double *mana);
 
   void setEjercito(int NLuchadores, int NTiradores, int NMagos);
   void informacionEjercito();

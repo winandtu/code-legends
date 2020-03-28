@@ -42,26 +42,24 @@ void Ejercito::calcularEjercito(){
 } */
 
 Ejercito::Ejercito(){
-  cantidadLuchadores = 10;
-  cantidadTiradores = 5;
-  cantidadMagos = 2;
-/*
-    cantidadLuchadores =numeroLuchadores; 
-    cantidadTiradores=numeroTiradores;
-    cantidadMagos=numeroMagos;
-
-
+  cantidadLuchadores  = 0;
+  cantidadTiradores = 0;
+  cantidadMagos = 0;
+  ejercito = new vector<Avatar&>;
+}
+  
   //Cual = Cual avatar.
-    for(int cual = 0; cual < numeroLuchadores ; cual++){
+void Ejercito::llenarFilas(){
+  for(int cual = 0; cual < cantidadLuchadores ; cual++){
       ejercito.push_back(new Avatar("luchador"));
-    }
-    for(int cual = 0; cual < numeroTiradores ; cual++){
+  }
+  for(int cual = 0; cual < cantidadTiradores ; cual++){
       ejercito.push_back(new Avatar("tirador"));
-    }
-    for(int cual = 0; cual < numeroMagos ; cual++){
+  }
+  for(int cual = 0; cual < cantidadMagos ; cual++){
       ejercito.push_back(new Avatar("mago"));
-    }
-    */
+  }
+    
 } 
 
 int Ejercito::getCantidadLuchadores(){
@@ -91,11 +89,20 @@ void Ejercito::setCantidadMagos(int numero){
 
 void Ejercito::setCantidadEjercito(int luchadores, int tiradores, int magos){
   cantidadLuchadores = luchadores;
-  cantidadLuchadores = tiradores;
+  cantidadTiradores = tiradores;
   cantidadMagos = magos;
 
 }
-
+/*
+//Calcula la suma del poder
+void calcularPoder(){
+  for()
+}
+//Calcula la suma del mana
+void calcularMana(){
+  
+}
+*/
 
 vector<Avatar*> Ejercito::getEjercito(){ //cree un nuevo tipo el cual es: vector<*avatar>
   return ejercito;

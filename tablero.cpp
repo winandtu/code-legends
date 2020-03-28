@@ -11,10 +11,11 @@ void Tablero::Interfaz(){
     cout << "\n1. ImprimirTablero\n2. Estado Ejercitos\n3. Salir al menu\n";
     cin >> opcion;
     switch(opcion){
+      //Inicializa ImprimirTablero.
       case 1:
       imprimirTablero();
       break;
-
+      //Recorre la matriz en busqueda del ejercito en caso de encontrarlo inicia informaciónEjercito
       case 2:
       for(int x = 0; x<=9; x++){
         for(int y = 0; y<=9; y++){

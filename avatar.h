@@ -30,6 +30,7 @@ class Avatar{
     Avatar(string tipo);
     //~ Avatar();
     void setVida(float nuevaVida); //Para modificar la vida
+    void setPerdervida(float menosVida);
     string getTipoAvatar();
     float getPoder();
     float getVida();

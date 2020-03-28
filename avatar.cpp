@@ -25,7 +25,7 @@ void Avatar::setTipo(string tipo){
 
 // Para modificar la vida 
 
-
+//
 Avatar::Avatar(string tipo){
   tipoAvatar = tipo;
   if(tipoAvatar=="luchador"){
@@ -44,7 +44,10 @@ Avatar::Avatar(string tipo){
 }
 
 void Avatar::setVida(float nuevaVida){
-  vida=vida-nuevaVida;
+  vida=vida - nuevaVida;
+}
+void Avatar::setPerdervida(float menosVida){
+  vida = vida - 0.5;
 }
 
 //Para saber de que tipo es el avatar
@@ -63,7 +66,7 @@ float Avatar::getMana(){
   return mana;
 }
 
-//Para obtener el mana del avatar dependiendo del tipo
+//Para obtener la vida del avatar dependiendo del tipo
 float Avatar::getVida(){
   return vida;
 }
