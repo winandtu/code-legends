@@ -12,7 +12,7 @@ void Box::setID(int id){
 int Box::getID(){
   return ID;
 }
-
+//Estado de la torreta
 void Box::setTorreta(){
   Torreta = true;
 }
